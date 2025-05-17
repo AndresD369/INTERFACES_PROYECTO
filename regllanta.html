@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Llantas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Registro de Llantas</h2>
+        <form action="#" method="post">
+            <label for="marca">Marca</label>
+            <input type="text" id="marca" name="marca" required>
+
+            <label for="dimension">Dimensión</label>
+            <input type="text" id="dimension" name="dimension" required>
+
+            <label for="diseno">Diseño</label>
+            <input type="text" id="diseno" name="diseno" required>
+
+            <label for="tipo">Tipo</label>
+            <select id="tipo" name="tipo" required>
+                <option value="">Seleccione...</option>
+                <option value="Radial">Radial</option>
+                <option value="Convencional">Convencional</option>
+            </select>
+
+            <label for="terreno">Tipo de Terreno</label>
+            <select id="terreno" name="terreno" required>
+                <option value="">Seleccione...</option>
+                <option value="Carretera">Carretera</option>
+                <option value="Mixto">Mixto</option>
+                <option value="Fuera de carretera">Fuera de carretera</option>
+            </select>
+
+            <label for="posicion">Posición</label>
+            <select id="posicion" name="posicion" required>
+                <option value="">Seleccione...</option>
+                <option value="Direccional">Direccional</option>
+                <option value="Tracción">Tracción</option>
+                <option value="Trailer">Trailer</option>
+            </select>
+
+            <button type="submit">Registrar Llanta</button>
+        </form>
+        <p class="registro"><a href="index.html">Volver al inicio</a></p>
+    </div>
+</body>
+</html>
